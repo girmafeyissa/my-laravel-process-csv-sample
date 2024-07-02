@@ -96,8 +96,8 @@ class CalculationController extends Controller
         if (array_key_exists($toCurrency, $data['data'])) {
             $rate = $data['data'][$toCurrency];
 
-            // to make the output the same as stated on the assignment comment out this condition
-            // to get the updated currency conversion rate.
+            
+            // to get the updated currency conversion rate. comment out this section. 
 
             if ($fromCurrency === 'USD') {
                 $rate = 0.8697921196833957;
